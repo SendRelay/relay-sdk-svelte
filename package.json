@@ -1,0 +1,53 @@
+{
+  "name": "@relay-sdk/svelte",
+  "version": "1.7.0",
+  "description": "Official Relay Svelte bindings - track a delivery live with one store",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "pnpm run clean && rollup -c",
+    "clean": "rm -rf dist",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "pnpm run typecheck && pnpm run test && pnpm run build"
+  },
+  "keywords": [
+    "relay",
+    "delivery",
+    "tracking",
+    "realtime",
+    "svelte",
+    "sveltekit",
+    "store"
+  ],
+  "author": "SendRelay",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SendRelay/relay-sdk-svelte.git"
+  },
+  "homepage": "https://docs.sendrelay.com.ng/sdks/svelte-sdk",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@relay-sdk/sdk-browser": "^1.7.0"
+  },
+  "peerDependencies": {
+    "svelte": ">=4.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^12.3.0",
+    "jsdom": "^29.1.1",
+    "rollup": "^4.60.4",
+    "svelte": "^5.0.0",
+    "tslib": "^2.8.1",
+    "typescript": "^6.0.3",
+    "vitest": "4.1.11"
+  }
+}
