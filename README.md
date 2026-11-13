@@ -1,6 +1,6 @@
 # @relay-sdk/svelte
 
-Official [Relay](https://sendrelay.com.ng) Svelte bindings: show a delivery's status, the rider on a map and a live arrival time with one store. Svelte 4 and 5, SvelteKit.
+Official [SendRelay](https://sendrelay.com.ng) Svelte bindings: show a delivery's status, the rider on a map and a live arrival time with one store. Svelte 4 and 5, SvelteKit.
 
 ```bash
 npm install @relay-sdk/svelte

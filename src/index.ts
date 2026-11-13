@@ -1,5 +1,5 @@
 /**
- * Official Relay Svelte bindings: `taskTracker(client, taskId)` is a Svelte store with the task's
+ * Official SendRelay Svelte bindings: `taskTracker(client, taskId)` is a Svelte store with the task's
  * live status, rider position and ETA. Use it with `$tracker` in any component. Works in Svelte 4
  * and 5, and SvelteKit (track on the client only).
  *
