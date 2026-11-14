@@ -1,6 +1,6 @@
 {
   "name": "@relay-sdk/svelte",
-  "version": "1.10.0",
+  "version": "1.11.0",
   "description": "Official SendRelay Svelte bindings - track a delivery live with one store",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
